@@ -1,0 +1,68 @@
+<html>
+	<head>
+	<title>Data Viz Week 1</title>	
+	</head>
+	
+	<body>
+		<h1>Data Viz Week 1 lesson</h1>
+		
+		<script>
+			//This is my javascript. Im going to write a program that describes objects in the room. 
+			//Then Im going to console log those objects. 
+			//This program will include a string, a number, a boollean, an array and an object. 
+			
+			//This is my string, it describes my location. 
+			var myLocationString = 'Jamia Millia';
+			console.log('The name of myLocationString is');
+			console.log(myLocationString); 
+			console.log(typeof(myLocationString));
+			console.log(' ');
+			
+			//This is a number. It describes the location of the Mass Comm school. 
+			var gateNumber = 15; 
+			console.log(gateNumber);
+			console.log(typeof(gateNumber));
+			var newGates = '3';
+			var newGatesNumber = Number(newGates);
+			console.log('The sum of our gates is: ');
+			console.log(gateNumber+newGates);
+			console.log(gateNumber+newGatesNumber);
+			console.log(' ');
+			
+			//This is a boollean. It describes the city in which Jamia Millia is located.
+			var isInDelhi = true; 
+			console.log(isInDelhi);
+			console.log(gateNumber>newGatesNumber);
+			console.log(' ');
+			
+			//Now Im going to create an array. The array will describe objects in the classroom. 
+			
+			
+			var classroomArray = ['Desk','Chair','Table','Computers'];
+			console.log(classroomArray);
+			
+			//This is a variable for the length of my classroom array. It is one higher than the number of my final item.
+			
+			var classroomArrayLength = classroomArray.length; 
+			console.log(classroomArrayLength);
+			
+			var lastItem = classroomArray[classroomArrayLength-1];
+			console.log(lastItem); 
+			//Now I'll create an object to describe the teacher. 
+			var teacher = {
+				name: 'Harry',
+				age: 29,
+				hobbies: ['basketball', 'chess', 'bikeriding']
+				};
+			console.log(teacher);	
+			var teacherHobbies = teacher.hobbies;
+			console.log(teacherHobbies);
+			var firstHobby = teacherHobbies[0];
+			console.log(firstHobby);
+			
+			
+							
+							
+		</script>
+	</body>
+</html>
